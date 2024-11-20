@@ -2,11 +2,13 @@ import React from 'react';
 import { IoNotificationsOutline } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
 import { RiVideoUploadLine } from "react-icons/ri";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between p-4">
-      <div>
+    <header className="flex items-center justify-between p-4 bg-red-300">
+      <div className='flex justify-evenly gap-4'>
+      <RxHamburgerMenu className='text-white text-2xl font-bold'/>
         <img src="/logo.png" alt="youtube_logo" width={100} />
       </div>
       <div>
